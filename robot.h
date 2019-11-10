@@ -11,22 +11,22 @@ struct Estado
 class Robot
 {
   private:
-    int numeroMotores; 
+    int numeroMotores;
     int numeroSensores;
     float bateria;
     Estado orientacao;
-    
+
   public:
     Robot();
     void Locomocao();
     int getNumeroMotores();
     int getNumeroSensores();
-    int getNivelBateria();
+    float getNivelBateria();
     Estado getOrientacao();
     void setOrientacao(Estado);
     void setNivelBateria(float);
     void setNumeroMotores(int);
     void setNumeroSensores(int);
-  
+
 };
 #endif

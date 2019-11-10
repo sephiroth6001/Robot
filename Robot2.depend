@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1573333763 source:d:\users\ednéa\desktop\robot2\robot2\main.cpp
+	<iostream>
+	<iomanip>
+	"D:\Users\Ednéa\Desktop\Robot2\Robot2\seguidor.h"
+
+1573316613 d:\users\ednéa\desktop\robot\seguidor.h
+	"D:\Users\Ednéa\Desktop\Robot\Robot.h"
+	<iostream>
+
+1573315538 d:\users\ednéa\desktop\robot\robot.h
+	<iostream>
+
+1573333412 source:d:\users\ednéa\desktop\robot2\robot2\robot.cpp
+	"robot.h"
+	<windows.h>
+
+1573331626 d:\users\ednéa\desktop\robot2\robot2\robot.h
+	<iostream>
+
+1573333772 source:d:\users\ednéa\desktop\robot2\robot2\seguidor.cpp
+	"Seguidor.h"
+	"windows.h"
+
+1573333756 d:\users\ednéa\desktop\robot2\robot2\seguidor.h
+	"D:\Users\Ednéa\Desktop\Robot\Robot.h"
+	<iostream>
+
+1573340695 source:c:\users\y\desktop\seguidor\main.cpp
+	<iostream>
+	<iomanip>
+	"D:\Users\Ednéa\Desktop\Robot2\Robot2\seguidor.h"
+
+1573340695 source:c:\users\y\desktop\seguidor\robot.cpp
+	"robot.h"
+	<windows.h>
+
+1573340695 c:\users\y\desktop\seguidor\robot.h
+	<iostream>
+
+1573340695 source:c:\users\y\desktop\seguidor\seguidor.cpp
+	"Seguidor.h"
+	"windows.h"
+
+1573343649 c:\users\y\desktop\seguidor\seguidor.h
+	"C:\Users\y\Desktop\Seguidor\robot.h"
+	<iostream>
+
