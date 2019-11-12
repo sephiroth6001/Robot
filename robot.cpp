@@ -7,7 +7,7 @@ Robot::Robot(){}
 
 void Robot::Locomocao()
 {
-    sleep(5000);
+    Sleep(5000);
 }
 
 int Robot::getNumeroMotores()

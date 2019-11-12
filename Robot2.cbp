@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Pista.cpp" />
+		<Unit filename="Pista.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="robot.cpp" />
 		<Unit filename="robot.h" />

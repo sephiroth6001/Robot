@@ -8,7 +8,7 @@
 	"D:\Users\Ednéa\Desktop\Robot\Robot.h"
 	<iostream>
 
-1573315538 d:\users\ednéa\desktop\robot\robot.h
+1573409102 d:\users\ednéa\desktop\robot\robot.h
 	<iostream>
 
 1573333412 source:d:\users\ednéa\desktop\robot2\robot2\robot.cpp
@@ -26,23 +26,30 @@
 	"D:\Users\Ednéa\Desktop\Robot\Robot.h"
 	<iostream>
 
-1573340695 source:c:\users\y\desktop\seguidor\main.cpp
+1573592568 source:d:\users\ednéa\desktop\robot2\seguidor de linha\main.cpp
 	<iostream>
 	<iomanip>
-	"D:\Users\Ednéa\Desktop\Robot2\Robot2\seguidor.h"
+	"D:\Users\Ednéa\Desktop\Robot2\Seguidor de Linha\seguidor.h"
+	"D:\Users\Ednéa\Desktop\Robot2\Seguidor de Linha\Pista.h"
 
-1573340695 source:c:\users\y\desktop\seguidor\robot.cpp
+1573423663 source:d:\users\ednéa\desktop\robot2\seguidor de linha\robot.cpp
 	"robot.h"
 	<windows.h>
 
-1573340695 c:\users\y\desktop\seguidor\robot.h
+1573331626 d:\users\ednéa\desktop\robot2\seguidor de linha\robot.h
 	<iostream>
 
-1573340695 source:c:\users\y\desktop\seguidor\seguidor.cpp
+1573592887 source:d:\users\ednéa\desktop\robot2\seguidor de linha\seguidor.cpp
 	"Seguidor.h"
 	"windows.h"
 
-1573343649 c:\users\y\desktop\seguidor\seguidor.h
-	"C:\Users\y\Desktop\Seguidor\robot.h"
+1573592887 d:\users\ednéa\desktop\robot2\seguidor de linha\seguidor.h
+	"D:\Users\Ednéa\Desktop\Robot\Robot.h"
 	<iostream>
+
+1573591947 source:d:\users\ednéa\desktop\robot2\seguidor de linha\pista.cpp
+	"Pista.h"
+	<iostream>
+
+1573423557 d:\users\ednéa\desktop\robot2\seguidor de linha\pista.h
 
