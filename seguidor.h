@@ -1,7 +1,7 @@
 #ifndef SEGUIDOR_H_INCLUDED
 #define SEGUIDOR_H_INCLUDED
 
-#include "D:\Users\Ednéa\Desktop\Robot\Robot.h"
+#include "C:\Backup Real\Renan\Rino\Robot2\Seguidor de Linha\Robot.h"
 
 #include <iostream>
 
@@ -32,11 +32,13 @@ class seguidor : public Robot
     public:
         seguidor();
         ~seguidor();
-        PID getPID();
+        void getPID();
         void setPID(PID);
         int getsensoresfront();
+        void getSensoresfront();
         void setsensoresfront(int);
         int getsensoreslat();
+        void getSensoreslat();
         void setsensoreslat(int);
         float* getvelocidade();
         void setvelocidade(float,float);
@@ -50,12 +52,10 @@ class seguidor : public Robot
         void setluminosidade2(bool*);
         void setluminosidade3(bool*);
         void setluminosidade4(bool*);
-        PID definirvalores ();
         Estado atrapalhaOrientacao();
         Estado Orientar ();
         PID AtrapalhaPID();
         bool* getleiturasenslat();
-        void ImprimirPID (PID constantes);
         float getvelesqreta();
         float getveldirreta();
         float getvelEsqcurvaEsq();//Roda esquerda da curva para a esquerda

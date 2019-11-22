@@ -19,10 +19,10 @@ class Robot
   public:
     Robot();
     void Locomocao();
-    int getNumeroMotores();
-    int getNumeroSensores();
-    float getNivelBateria();
-    Estado getOrientacao();
+    void getSensores();
+    void getMotores();
+    void getBateria();
+    void getOrientacao();
     void setOrientacao(Estado);
     void setNivelBateria(float);
     void setNumeroMotores(int);

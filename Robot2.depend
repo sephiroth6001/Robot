@@ -53,3 +53,30 @@
 
 1573423557 d:\users\ednéa\desktop\robot2\seguidor de linha\pista.h
 
+1574377298 source:c:\backup real\renan\rino\robot2\seguidor de linha\pista.cpp
+	"Pista.h"
+	<iostream>
+
+1574374607 c:\backup real\renan\rino\robot2\seguidor de linha\pista.h
+
+1574378898 source:c:\backup real\renan\rino\robot2\seguidor de linha\seguidor.cpp
+	"Seguidor.h"
+	"windows.h"
+
+1574379137 c:\backup real\renan\rino\robot2\seguidor de linha\seguidor.h
+	"C:\Backup Real\Renan\Rino\Robot2\Seguidor de Linha\Robot.h"
+	<iostream>
+
+1574376916 c:\backup real\renan\rino\robot2\seguidor de linha\robot.h
+	<iostream>
+
+1574378984 source:c:\backup real\renan\rino\robot2\seguidor de linha\main.cpp
+	<iostream>
+	<iomanip>
+	"C:\Backup Real\Renan\Rino\Robot2\Seguidor de Linha\seguidor.h"
+	"C:\Backup Real\Renan\Rino\Robot2\Seguidor de Linha\Pista.h"
+
+1574377445 source:c:\backup real\renan\rino\robot2\seguidor de linha\robot.cpp
+	"robot.h"
+	<windows.h>
+

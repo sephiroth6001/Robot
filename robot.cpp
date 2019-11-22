@@ -3,31 +3,27 @@
 
 using namespace std;
 
-Robot::Robot(){}
+Robot::Robot(){
+    cout << "ROBO CONSTRUIDO" << endl;
+    setNivelBateria(100);
+    setNumeroMotores(2);
+    setNumeroSensores(7);
+    cout << "Motores: ";
+    getMotores();
+    cout << "Bateria: " ;
+    getBateria();
+    cout << "Sensores: ";
+    getSensores();
+    }
 
 void Robot::Locomocao()
 {
     Sleep(5000);
 }
 
-int Robot::getNumeroMotores()
+void Robot::getOrientacao()
 {
-    return numeroMotores;
-}
-
-int Robot::getNumeroSensores()
-{
-    return numeroSensores;
-}
-
-float Robot::getNivelBateria()
-{
-    return bateria;
-}
-
-Estado Robot::getOrientacao()
-{
-    return orientacao;
+    cout << "Orientacao : (" << orientacao.x << "," <<  orientacao.y << "," << orientacao.theta << ")" << endl;
 }
 
 void Robot::setOrientacao(Estado state)
@@ -48,4 +44,19 @@ void Robot::setNumeroMotores(int numMotores)
 void Robot:: setNumeroSensores(int numsensores)
 {
     numeroSensores = numsensores;
+}
+
+void Robot:: getSensores ()
+{
+    cout << numeroSensores << endl;
+}
+
+void Robot:: getBateria()
+{
+    cout << bateria << endl;
+}
+
+void Robot:: getMotores()
+{
+    cout << numeroMotores << endl;
 }

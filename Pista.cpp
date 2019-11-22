@@ -15,6 +15,7 @@ Pista::Pista()
     Marcacao[7]=0;
     Marcacao[8]=1;
     Marcacao[9]=0;
+    cout << endl;
     cout << "Pista construida" << endl;
 }
 
@@ -32,8 +33,12 @@ void Pista::PreencherMarcacao(int Marcas[10])
 //if curva[i] == 1 -> curva a esquerda
 // if curva [i] == 2 -> curva a esquerda
 
-void Pista::PreencherParada(int Faixa[2])
+int Pista::setFaixaParada()
 {
-    for (int i=0;i<2;i++)
-        Faixa[i]=FaixaParada[i];
+    FaixaParada++;
+}
+
+int Pista::getFaixaParada ()
+{
+    return FaixaParada;
 }
