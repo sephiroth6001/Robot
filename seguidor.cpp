@@ -5,21 +5,35 @@ using namespace std;
 
 seguidor::seguidor()
 {
-    cout << "ROBO CONSTRUIDO" << endl;
+    setsensoresfront(5);
+    setsensoreslat(2);
+    getSensoresfront();
+    getSensoreslat();
+    constantes.Kp = 5;
+    constantes.Ki = 0.12;
+    constantes.Kd = 4;
+    getPID();
+    Estado Orientacao;
+    Orientacao = Orientar ();
+    setOrientacao(Orientacao);
+    getOrientacao();
 }
 seguidor::~seguidor()
 {
     cout << "ROBO DESTRUIDO!!" << endl;
 }
-
-PID seguidor::getPID()
+void seguidor::getPID()
 {
-    return constantes;
+    cout << "Kp = " << constantes.Kp << endl;
+    cout << "Ki = " << constantes.Ki << endl;
+    cout << "Kd = " << constantes.Kd << endl;
 }
 
-void seguidor::setPID(PID constantesPID)
+void seguidor::setPID(PID valores)
 {
-    constantes = constantesPID;
+    constantes.Kp = valores.Kp;
+    constantes.Ki = valores.Ki;
+    constantes.Kd = valores.Kd;
 }
 
 int seguidor::getsensoresfront ()
@@ -117,7 +131,7 @@ PID seguidor::AtrapalhaPID()
 Estado seguidor::Orientar ()
 {
     Estado Orientacao;
-    Orientacao.x = 3.0;
+    Orientacao.x = 5.0;
     Orientacao.y = 4.0;
     Orientacao.theta = 60;
     return Orientacao;
@@ -131,22 +145,6 @@ Estado seguidor::atrapalhaOrientacao()
     Orientacao.y = 245;
     Orientacao.theta = 654;
     return Orientacao;
-}
-
-PID seguidor::definirvalores ()
-{
-    PID valores;
-    valores.Kp = 4;
-    valores.Ki = 0.12;
-    valores.Kd = 5;
-    return valores;
-}
-
-void seguidor::ImprimirPID(PID constantes)
-{
-    cout << "Kp = " << constantes.Kp << endl;
-    cout << "Ki = " << constantes.Ki << endl;
-    cout << "Kd = " << constantes.Kd << endl;
 }
 
 float seguidor::getvelesqreta()
@@ -228,4 +226,14 @@ bool seguidor::getcurva()
 void seguidor::setcurva(bool lat)
 {
     curva = lat;
+}
+
+void seguidor::getSensoresfront()
+{
+    cout << "sensores frontais = " << sensoresfront << endl;
+}
+
+void seguidor::getSensoreslat()
+{
+    cout << "sensores laterais = " << sensoreslat << endl;
 }
